@@ -1,0 +1,15 @@
+# both programings failed at 2057 / 2094
+from typing import List
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        nums1=nums1+nums2
+        sum=0
+        for i in nums1:
+            sum=sum+i
+        result=float(sum/len(nums1))
+        return result    
+l1=[1,3]
+l2=[2,7]     
+d=Solution()   
+p=d.findMedianSortedArrays(l1,l2)
+print(p)
