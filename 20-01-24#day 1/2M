@@ -16,3 +16,5 @@ l2=[2,7]
 d=Solution()   
 p=d.findMedianSortedArrays(l1,l2)
 print(p)
+
+
