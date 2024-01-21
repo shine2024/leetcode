@@ -1,4 +1,7 @@
 # both programings failed at 2057 / 2094
+
+#they have mentioned that is should be o(log(n+m))
+# that the reason i my code was filed
 from typing import List
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
